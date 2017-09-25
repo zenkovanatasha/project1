@@ -9,7 +9,7 @@ namespace lab1
     class Function
     {
         private double y,z;
-        public double xn, xk, step = -1, F;
+        public double xn, xk, step = -1, F; // Х конечное, начальное, шаг функции
         public int number;
         public void InputX()/// Метод для введения Х начального, конечного и шага функции
         {
